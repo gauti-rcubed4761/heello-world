@@ -1,0 +1,303 @@
+/**/
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    FONT-FAMILY: VERDANA;
+
+}
+
+.wall {
+    height: 735px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-image: url("cube.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.head {
+    width: 100%;
+    height: 50px;
+    color: white;
+    margin-top: 10px;
+    background: none;
+}
+
+.focus {
+    width: 70%;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    margin-left: 15%;
+    background-size: 100% 100%;
+    text-align: center;
+    box-shadow: inset -20px 1px 10px 20px #03A795;
+    box-shadow: outlet 2px 0px 8px 8px #03A795;
+}
+
+nav {
+    box-shadow: 0px 3px 4px lightgrey;
+    height: 50px;
+    text-align: right;
+    background-color: none;
+}
+
+nav ul {
+    list-style: none;
+    margin: 16px;
+    display: inline-block;
+    padding: 0;
+    transform: translateX(-100px);
+}
+
+nav ul li {
+    color: black;
+    display: inline;
+    margin: 6px;
+    padding: 0 5px;
+}
+
+nav ul li:hover {
+    border-bottom: 3px solid #03A795;
+    padding-bottom: 13px;
+}
+
+nav ul li button {
+    height: 30px;
+    border: none;
+    width: 70px;
+    text-align: center;
+    background-color: #03A795;
+}
+
+.logo {
+    height: 30px;
+    margin-left: 20px;
+    width: 160px;
+    float: left;
+    margin-top: 12px;
+    font-size: 30px;
+    text-align: center;
+    color: #03A795;
+}
+
+.focus h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+#esehi {
+    height: 270px;
+    width: 80%;
+    background: white;
+    margin-left: 10%;
+    box-shadow: -3px -2px 39px 2px black;
+
+}
+
+.symbol {
+    margin-left: 10%;
+    height: 200px;
+    width: 200px;
+    margin-top: 5%;
+    FLOAT: LEFT;
+    color: black;
+    background-image: url("symbol.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.ABOUT {
+    margin-right: 5%;
+    height: 200px;
+    width: 400px;
+    margin-top: 5%;
+    FLOAT: LEFT;
+    font-size: 20px;
+    color: black;
+}
+
+.feature1 {
+    height: 300px;
+    width: 100%;
+    background-color: #03A795;
+}
+
+.sign1 {
+    margin-left: 15%;
+    height: 200px;
+    margin-right: 2%;
+    width: 200px;
+    margin-top: 2%;
+    FLOAT: LEFT;
+    color: black;
+    border-right: 2px solid black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.note1 {
+    margin-right: 2%;
+    height: 200px;
+    width: 900px;
+    margin-top: 2%;
+    FLOAT: LEFT;
+    font-size: 20 px;
+    color: black;
+    border-right: 2px solid black;
+}
+
+.feature2 {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(240, 245, 244);
+}
+
+.sign2 {
+    margin-left: 15%;
+    height: 200px;
+    margin-right: 2%;
+    width: 200px;
+    margin-top: 2%;
+    FLOAT: LEFT;
+    color: black;
+    border-right: 2px solid black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.note2 {
+    margin-right: 2%;
+    height: 200px;
+    width: 900px;
+    margin-top: 2%;
+    FLOAT: LEFT;
+    font-size: 20 px;
+    color: black;
+    border-right: 2px solid black;
+}
+
+
+.feature3 {
+    height: 300px;
+    width: 100%;
+    background-color: #03A795;
+}
+
+.sign3 {
+    margin-left: 15%;
+    height: 200px;
+    margin-right: 2%;
+    width: 200px;
+    margin-top: 2%;
+    FLOAT: LEFT;
+    color: black;
+    border-right: 2px solid black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.note3 {
+    margin-right: 2%;
+    height: 200px;
+    width: 900px;
+    margin-top: 2%;
+    FLOAT: LEFT;
+    font-size: 20 px;
+    color: black;
+    border-right: 2px solid black;
+}
+
+.feature4 {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(240, 245, 244);
+}
+
+.note4 {
+    margin-right: 2%;
+    height: 200px;
+    width: 900px;
+    margin-top: 2%;
+    FLOAT: LEFT;
+    font-size: 20px;
+    color: black;
+    border-right: 2px solid black;
+}
+
+.sign4 {
+    margin-left: 15%;
+    height: 200px;
+    margin-right: 2%;
+    width: 200px;
+    margin-top: 2%;
+    FLOAT: LEFT;
+    color: black;
+    border-right: 2px solid black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.product {
+    margin-left: 10%;
+    margin-right: 30%;
+    height: 400px;TEXT-ALIGN:CENTER;
+    width: 80%;
+    PADDING: 0;
+    background: #03A795;
+}
+
+.container {
+    width: 100%;
+    height: 1400px;
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.flex {
+
+    height: 200px;
+    width: 480px;
+    border: none;
+    margin-top: 3%;
+    border-radius: 20px;
+    margin-left: 1%;
+
+}
+
+.pic {
+
+    float: left;
+    height: 130px;
+    width: 150px;
+    border-radius: 100px;
+    background-image: url("manal.jpg");
+    background-position: fixed;
+    background-size: 150px 198px;
+    ;
+}
+
+.about {
+    color: black;
+    border-right: 1px solid #03A795;
+    border-bottom: 1px solid #03A795;
+    float: right;
+    height: 197px;
+    box-shadow: -1px 12px 110px -15px #03A795;
+    width: 296px;
+    border-radius: 20px;
+}
+
+.footer {
+    height: 200px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: grey;
+}
